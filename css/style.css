@@ -32,6 +32,18 @@ ul {
     padding-bottom: 80px;
 }
 
+.mt-160 {
+    margin-top: 160px;
+}
+
+.pt-180 {
+    padding-top: 180px;
+}
+
+.pt-300 {
+    padding-top: 450px;
+}
+
 /* HEADER */
 .header-top {
     height: 80px;
@@ -90,11 +102,11 @@ header .jumbotron {
 
 /* Section 1 */
 #vehicle .row img {
-    width: 100%;
+    width: 100%; 
 }
 
 #vehicle .row h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #vehicle .row p {
@@ -109,6 +121,30 @@ header .jumbotron {
 
 .vehicle-bg {
     background-color: #fafafa;
+}
+
+/* Section 2 */
+#work {
+    height: 500px;
+    background-image: url('../img/index-banner.1f6fd0a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#work .row img {
+    width: 80%;
+}
+
+#work .row h3 {
+    font-size: 30px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+#work .row .step {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 
 @media screen and (max-width: 992px) {
