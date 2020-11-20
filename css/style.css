@@ -226,8 +226,8 @@ header .jumbotron {
 }
 
 /* Section 5 */
-#collage .row .col-lg-12 {
-    height: 400px;
+#collage {
+    min-height: 350px;
     background-image: url('../img/helbiz-collage.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,22 +236,21 @@ header .jumbotron {
 
 #collage .social {
     background-color: white;
-    width: 25%;
-    padding: 30px 100px;
+    padding: 40px 80px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 25px;
 }
 
 #collage .social ul li {
     display: inline-block;
-    padding: 15px;
-    font-size: 30px;
 }
 
 #collage .social ul li a {
     color: black;
+    padding: 0 15px;
 }
 
 /* Footer */
