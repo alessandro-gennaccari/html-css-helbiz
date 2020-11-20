@@ -20,6 +20,18 @@ ul {
     margin: 0 auto;
 }
 
+.pt-80 {
+    padding-top: 80px;
+}
+
+.prl-20 {
+    padding: 0 20px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
 /* HEADER */
 .header-top {
     height: 80px;
@@ -28,7 +40,7 @@ ul {
 
 .header-top .logo {
     vertical-align: middle;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .header-top .row .icon-menu {
@@ -76,6 +88,29 @@ header .jumbotron {
   font-size: 20px;
 }
 
+/* Section 1 */
+#vehicle .row img {
+    width: 100%;
+}
+
+#vehicle .row h2 {
+    font-size: 30px;
+}
+
+#vehicle .row p {
+    font-size: 25px;
+}
+
+#vehicle .row a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #212bfe;
+}
+
+.vehicle-bg {
+    background-color: #fafafa;
+}
+
 @media screen and (max-width: 992px) {
     h1 {
         font-size: 35px;
@@ -85,3 +120,4 @@ header .jumbotron {
         font-size: 18px;
       }
 }
+
