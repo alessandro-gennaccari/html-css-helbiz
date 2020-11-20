@@ -169,14 +169,15 @@ header .jumbotron {
 
 /* Section 3 */
 #mobility .row {
-    height: 500px;
     background-image: url('../img/scooter.f0a0397.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #mobility .row .smart {
-    padding: 100px;
+    margin: auto;
+    width: 50%;
+    padding: 20% 0;;
     color: white;
 }
 
