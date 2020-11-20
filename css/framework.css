@@ -214,6 +214,10 @@
     .md-display-none {
         display: none;
     }
+
+    .md-display-block {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px) {
