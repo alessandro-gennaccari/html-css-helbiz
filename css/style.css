@@ -119,5 +119,13 @@ header .jumbotron {
     .jumbotron .jumb-title p {
         font-size: 18px;
       }
+
+      #vehicle .row p {
+        font-size: 15px;
+    }
+
+    #vehicle .row a {
+        font-size: 12px;
+    }
 }
 
