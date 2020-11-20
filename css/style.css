@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 58px;
+}
+
 ul {
     list-style: none;
 }
@@ -24,7 +28,7 @@ ul {
 
 .header-top .logo {
     vertical-align: middle;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .header-top .row .icon-menu {
@@ -35,7 +39,7 @@ ul {
 ul.navbar-menu li,
 ul.navbar-language li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 17px;
 }
 
 ul.navbar-menu li a,
@@ -43,7 +47,7 @@ ul.navbar-language li a {
     color: #343434;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 ul.navbar-language :not(li:last-child) a {
@@ -52,9 +56,32 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 /* Jumbotron */
-.jumbotron {
+header .jumbotron {
     height: 675px;
     background-image: url('../img/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.jumbotron .jumb-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.jumbotron .jumb-title p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .jumbotron .jumb-title p {
+        font-size: 18px;
+      }
 }
