@@ -24,8 +24,20 @@ ul {
     padding-top: 80px;
 }
 
-.prl-20 {
-    padding: 0 20px;
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
 }
 
 .prl-150 {
@@ -36,17 +48,21 @@ ul {
     padding-bottom: 80px;
 }
 
-.mt-160 {
-    margin-top: 160px;
-}
-
 .pt-180 {
     padding-top: 180px;
 }
 
 .pt-300 {
     padding-top: 450px;
+} 
+
+.mt-160 {
+    margin-top: 160px;
 }
+.mt-40 {
+    margin-top: 40px;
+}
+
 
 /* HEADER */
 .header-top {
@@ -178,6 +194,97 @@ header .jumbotron {
     color: #ffffff;
 }
 
+/* Section 4 */
+#where {
+    color:white;
+}
+
+#where a {
+    display: block;
+    color: white;
+    font-weight: bolder;
+}
+
+#where h3 {
+    font-size: 35px;
+}
+
+#where p {
+    font-size: 20px;
+}
+
+#where .app {
+    height: 610px;
+    background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+    position: relative;
+}
+
+#where .app::before {
+    content: '';
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: white;
+}
+
+ #where .city{
+    height: 610px;
+    width: 100%;
+    background-image: url('../img/city.7c8c928.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#where .city::before {
+    content: '';
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: white;
+}
+
+/* Section 5 */
+#collage .row .col-lg-12 {
+    height: 400px;
+    background-image: url('../img/helbiz-collage.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#collage .social {
+    background-color: white;
+    width: 25%;
+    padding: 30px 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#collage .social ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#collage .social ul li a {
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+ 
 
 
 @media screen and (max-width: 992px) {

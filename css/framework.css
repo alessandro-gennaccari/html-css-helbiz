@@ -26,6 +26,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.width-100 {
+    width: 100%;
+}
 
 .text-right{
     text-align: right;
