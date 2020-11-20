@@ -27,6 +27,14 @@
     box-sizing: border-box;
 }
 
+.text-right{
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* Padding */
 .p-10 {
     padding: 10px;
