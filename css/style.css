@@ -24,10 +24,6 @@ ul {
     padding-top: 80px;
 }
 
-.pl-20 {
-    padding-left: 20px;
-}
-
 .pt-20{
     padding-top: 20px;
 }
@@ -172,6 +168,7 @@ header .jumbotron {
     background-image: url('../img/scooter.f0a0397.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #mobility .row .smart {
@@ -215,38 +212,17 @@ header .jumbotron {
 }
 
 #where .app {
-    height: 610px;
+    height: 400px;
+    overflow: hidden;
     background: linear-gradient(#41566a,#252f38) 50% no-repeat;
-    position: relative;
 }
 
-#where .app::before {
-    content: '';
-    height: 5px;
-    position: absolute;
-    bottom: 0;
-    left:0;
-    width: 100%;
-    background-color: white;
-}
 
  #where .city{
-    height: 610px;
-    width: 100%;
+    height: 400px;
     background-image: url('../img/city.7c8c928.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-}
-
-#where .city::before {
-    content: '';
-    height: 5px;
-    position: absolute;
-    bottom: 0;
-    left:0;
-    width: 100%;
-    background-color: white;
 }
 
 /* Section 5 */
