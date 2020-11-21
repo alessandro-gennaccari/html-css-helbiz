@@ -165,17 +165,26 @@ header .jumbotron {
 
 /* Section 3 */
 #mobility .row {
+    height: 500px;
     background-image: url('../img/scooter.f0a0397.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    color: white;
+}
+
+#mobility .row [class*="col-"]{
+    height: 100%;
+}
+
+#mobility .row .mobility-text {
+    position: relative;
 }
 
 #mobility .row .smart {
-    margin: auto;
-    width: 50%;
-    padding: 20% 0;;
-    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #mobility .row h2 {
@@ -316,5 +325,11 @@ footer .row.f-center a {
 
     #vehicle .row a {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #mobility .row {
+        background-position: right;
     }
 }
