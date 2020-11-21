@@ -204,6 +204,7 @@ header .jumbotron {
 /* Section 4 */
 #where {
     color:white;
+    margin-bottom: 50px;
 }
 
 #where a {
