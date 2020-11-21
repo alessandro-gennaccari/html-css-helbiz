@@ -236,7 +236,7 @@ header .jumbotron {
 
 /* Section 5 */
 #collage {
-    min-height: 350px;
+    min-height: 400px;
     background-image: url('../img/helbiz-collage.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -326,10 +326,29 @@ footer .row.f-center a {
     #vehicle .row a {
         font-size: 12px;
     }
+
+    .social-f{
+        text-align: center;
+    }
+
+    .mq-d-none,
+    #collage {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     #mobility .row {
         background-position: right;
     }
+
+    .mq-m-t-20 {
+        margin-top: 20px;
+    }
 }
+
