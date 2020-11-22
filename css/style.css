@@ -44,14 +44,6 @@ ul {
     padding-bottom: 80px;
 }
 
-.pt-180 {
-    padding-top: 180px;
-}
-
-.pt-300 {
-    padding-top: 450px;
-} 
-
 .mt-160 {
     margin-top: 160px;
 }
@@ -140,28 +132,28 @@ header .jumbotron {
 }
 
 /* Section 2 */
-#work {
+#work .work-bg {
     height: 500px;
     background-image: url('../img/index-banner.1f6fd0a.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-#work .row img {
-    width: 80%;
+  
+#work img {
+    width: 100%;
+    margin-top: -380px;
 }
-
-#work .row h3 {
-    font-size: 30px;
-    padding-right: 100px;
-    padding-left: 50px;
-}
-
 #work .row .step {
-    font-size: 20px;
-    padding-left: 100px;
-    padding-right: 50px;
+    margin-top: 100px;
+    padding: 20px 60px 20px 40px;
 }
+
+#work .row .step-one{
+    margin-top: 100px;
+    padding: 20px 40px 20px 60px;
+}
+
+  
 
 /* Section 3 */
 #mobility .row {
@@ -350,6 +342,10 @@ footer .row.f-center a {
 
     .mq-m-t-20 {
         margin-top: 20px;
+    }
+
+    #work .work-bg {
+        background-position: 20%;
     }
 }
 
